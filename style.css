@@ -1,0 +1,29 @@
+.header{
+  background-color: #ffffff;
+  border: thin: #cccccc;
+  font:'Georgia', Times, 'Times New Roman', serif;
+  
+}
+.name{
+  background-color: #4aaaa5;
+  color: whitesmoke;
+  text-align: left;
+  font-size: 36pt;
+  border-left: 20px;
+  
+}
+.externalLinks{
+  color:#90918c;
+  text-align: right;
+  clear: left;
+  font-size: 16pt;
+
+  
+}
+.aboutMe{
+  color: #4aaaa5;
+}
+
+.profilePic{
+  float: left;
+}
