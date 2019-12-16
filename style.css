@@ -1,29 +1,71 @@
+body{
+  max-width: 960px;
+  padding-right: 10%;
+  padding-left: 10%;
+
+}
+}
 .header{
   background-color: #ffffff;
-  border: thin: #cccccc;
-  font:'Georgia', Times, 'Times New Roman', serif;
-  
+  width: 100%;
+  height: 100%;
+  border: thin #cccccc;
+  font-family:'Georgia', Times, 'Times New Roman', serif;
 }
 .name{
   background-color: #4aaaa5;
   color: whitesmoke;
-  text-align: left;
-  font-size: 36pt;
-  border-left: 20px;
-  
+  text-align: center;
+  width:300px;
+  height: fit-content;
+  margin-bottom: 0%;
+  padding-top: 25px;
+  padding-bottom:25px ;
+  float: left;
+  display: inline;
 }
 .externalLinks{
   color:#90918c;
-  text-align: right;
-  clear: left;
-  font-size: 16pt;
+  font-size: 10pt;
+  width: fit-content;
+  display: inline;
+  float:right;
+  padding-top: 130px;
+}
+.clearFix::after{
+  content:"" ;
+  display: block;
+  clear: both;
+}
 
-  
 }
 .aboutMe{
   color: #4aaaa5;
+  margin-bottom: 0px;
+  padding-bottom: 15px;
 }
 
 .profilePic{
   float: left;
+ height: 200px;
+}
+.content{
+  height: 500px;
+  background-color: #90918c;
+  color: #777777;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
+}
+.footer{
+  background-color: #494f59;
+  border-color: #3b827e;
+  border-top: 10px;
+  border-style: solid;
+  border-right: none;
+  border-left: none;
+  border-bottom: none;
+  text-align: center;
+  padding-bottom: 5px;
+  font-size: smaller;
+  position: fixed: bottom 0;
+  
 }
